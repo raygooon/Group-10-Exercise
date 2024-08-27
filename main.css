@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('BG2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+.box{
+    background: white;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.box-image{
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.box-1{
+    background-image: url('1.jpg');
+}
+
+.box-2{
+    background-image: url('2.jpg');
+}
+
+.box-3{
+    background-image: url('3.jpg');
+}
+
+.box-4{
+    background-image: url('4.jpg');
+}
+
+.box h2, .box p{
+    padding: 10px;
+}
+
+.box h4{
+    padding-left: 10px;
+}
+
+.box a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.box:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
